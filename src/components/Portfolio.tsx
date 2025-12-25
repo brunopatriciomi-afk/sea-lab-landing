@@ -4,11 +4,11 @@ import React from 'react';
 // Exemplo: se o link é youtube.com/shorts/AbCdEfGhIjK, o ID é "AbCdEfGhIjK"
 const projects = [
   { id: 1, title: 'Viral Reels', videoId: 'mpMKn3xWX3A' },
-  { id: 2, title: 'Campanha Tech', videoId: 'dQw4w9WgXcQ' },
-  { id: 3, title: 'Vlog Lifestyle', videoId: 'dQw4w9WgXcQ' },
-  { id: 4, title: 'Launch Product', videoId: 'dQw4w9WgXcQ' },
-  { id: 5, title: 'Event Recap', videoId: 'dQw4w9WgXcQ' },
-  { id: 6, title: 'Fashion Film', videoId: 'dQw4w9WgXcQ' },
+  { id: 2, title: 'Viral Reels', videoId: 'V0f4MWQNDkM' },
+  { id: 3, title: 'Viral Reels', videoId: '3fygL1irMqM' },
+  { id: 4, title: 'Viral Reels', videoId: '6LJwinYPGVE' },
+  { id: 5, title: 'Viral Reels', videoId: 'vYYH3n2KX3o' },
+  { id: 6, title: 'Viral Reels', videoId: 'PUur1S_eJMU' },
 ];
 
 const Portfolio: React.FC = () => {
