@@ -96,7 +96,9 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/55000000000"
+            href="https://wa.me/5583987104919"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="text-center w-full py-4 bg-sealab-accent text-black font-bold uppercase tracking-wider text-sm mt-4 rounded"
           >

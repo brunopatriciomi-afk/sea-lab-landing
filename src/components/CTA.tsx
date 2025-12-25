@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+// import Button from './Button'; // Não precisamos mais importar o Button
 
 const CTA: React.FC = () => {
   return (
@@ -12,9 +12,15 @@ const CTA: React.FC = () => {
           </h2>
           
           <div className="flex justify-center">
-             <Button icon className="w-full md:w-auto text-lg px-12 py-6">
+             {/* Link para o WhatsApp com estilo de botão */}
+             <a 
+                href="https://wa.me/5583987104919"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-full md:w-auto text-lg px-12 py-6 bg-sealab-accent hover:bg-sealab-accentHover text-black font-bold uppercase tracking-wider rounded shadow-[0_0_20px_rgba(255,140,0,0.3)] hover:shadow-[0_0_40px_rgba(255,140,0,0.6)] transition-all transform hover:scale-105"
+             >
                 👉 Agendar consultoria grátis
-             </Button>
+             </a>
           </div>
           
           <p className="text-sealab-muted text-[10px] uppercase tracking-[0.25em] mt-8 opacity-60">
