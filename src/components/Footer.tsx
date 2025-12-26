@@ -7,25 +7,21 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
             <div className="flex flex-col gap-2 text-center md:text-left">
-                <span className="font-display font-bold text-3xl text-white tracking-wide">SEA LAB</span>
+                <span className="font-display font-bold text-3xl text-white tracking-wide">SEAROOM</span>
                 <p className="text-sealab-muted text-xs font-light tracking-widest uppercase">
-                    Pós-Produção Premium
+                    Pós-ProduçãO
                 </p>
             </div>
-            
-             <Button onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}>
-                👉 Agendar consultoria
-            </Button>
         </div>
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-sealab-muted text-xs font-mono uppercase tracking-wider opacity-50">
-            © {new Date().getFullYear()} Sea Lab.
+            © {new Date().getFullYear()} SeaRoom.
             </p>
 
             <div className="flex gap-8">
-            <a href="#" className="text-sealab-muted hover:text-white transition-colors text-xs font-bold uppercase tracking-widest">Instagram</a>
-            <a href="#" className="text-sealab-muted hover:text-white transition-colors text-xs font-bold uppercase tracking-widest">WhatsApp</a>
+            {/* <a href="#" className="text-sealab-muted hover:text-white transition-colors text-xs font-bold uppercase tracking-widest">Instagram</a> */}
+            {/* <a href="#" className="text-sealab-muted hover:text-white transition-colors text-xs font-bold uppercase tracking-widest">WhatsApp</a> */}
             </div>
         </div>
       </div>

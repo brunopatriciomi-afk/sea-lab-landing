@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md">
            <span className="w-2 h-2 rounded-full bg-sealab-accent animate-pulse shadow-[0_0_10px_#FF8C00]"></span>
-           <span className="font-sans text-[11px] font-bold text-white/80 uppercase tracking-[0.2em]">Sea Lab Post-Production</span>
+           <span className="font-sans text-[11px] font-bold text-white/80 uppercase tracking-[0.2em]">SeaRoom Post-Production</span>
         </div>
 
         {/* Headline */}

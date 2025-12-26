@@ -5,15 +5,15 @@ import { FaqItem } from '../types';
 const faqData: FaqItem[] = [
   {
     question: "Como funcionam os planos mensais?",
-    answer: "Trabalhamos com franquias de horas ou quantidade fixa de vídeos por mês. Você garante sua vaga na ilha de edição e tem prioridade na entrega."
+    answer: "Nosso modelo é desenhado para garantir constância e escala. Ao fechar um pacote mensal, você não está apenas comprando vídeos, mas garantindo uma estrutura de pós-produção dedicada à sua marca. Isso oferece previsibilidade de custos e a tranquilidade de saber que seu calendário editorial será cumprido com alta qualidade."
   },
   {
     question: "Qual o prazo médio de entrega?",
-    answer: "Para vídeos curtos (Reels/TikTok), entregamos em até 48h úteis após o recebimento do material bruto. Projetos complexos são avaliados caso a caso."
+    answer: "Entendemos que o timing é a moeda mais valiosa do digital. Por isso, estabelecemos um fluxo de trabalho contínuo personalizado para sua demanda. Nosso foco é criar uma 'gordura' de conteúdo para que você nunca fique sem postar, mantendo um ritmo ágil sem sacrificar a qualidade."
   },
   {
-    question: "Vocês fazem roteiro e captação?",
-    answer: "Não. Somos especialistas em Pós-Produção (Edição e Motion). Focamos 100% em fazer seu material bruto brilhar."
+    question: "Os vídeos vão ter a minha identidade?", // MUDANÇA ESTRATÉGICA AQUI
+    answer: "Com certeza. Não aplicamos uma 'fórmula pronta' para todos. Antes de começar, analisamos seu posicionamento e criamos uma assinatura visual única para seus vídeos. Unimos a nossa técnica de retenção e estética com a essência da sua marca, garantindo que seu conteúdo seja reconhecido instantaneamente pelo seu público."
   }
 ];
 

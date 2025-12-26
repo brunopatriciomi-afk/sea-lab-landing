@@ -16,12 +16,12 @@ const App: React.FC = () => {
     <main className="min-h-screen bg-sealab-900 text-sealab-text selection:bg-sealab-accent selection:text-black overflow-x-hidden">
       <Navbar />
       <Hero />
-      <ProblemSection />
+      {/*<ProblemSection />*/}
       <SolutionSection />
-      <Founder />
-      <Benefits />
       <Portfolio />
-      <Testimonials />
+      <Benefits />
+      <Founder />
+      {/*<Testimonials />*/}
       <FAQ />
       <CTA />
       <Footer />

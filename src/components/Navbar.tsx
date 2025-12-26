@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
           <div className="flex flex-col">
             {/* AQUI ESTÁ A MUDANÇA DA FONTE: font-anton */}
             <span className="font-anton text-2xl tracking-wide text-white leading-none">
-              SEA LAB
+              SEAROOM
             </span>
           </div>
         </a>

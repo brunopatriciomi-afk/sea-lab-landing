@@ -13,10 +13,9 @@ const SolutionSection: React.FC = () => {
         {/* Content */}
         <div className="w-full md:w-1/2">
             <span className="font-mono text-[10px] text-sealab-accent uppercase tracking-[0.2em] font-bold mb-4 block">
-              A Solução Sea Lab
-            </span>
+             </span>
             
-            <h2 className="font-display text-[clamp(2.5rem,5vw,4.5rem)] text-white mb-8 uppercase leading-[0.95]">
+            <h2 className="text-center font-display text-[clamp(3.5rem,6vw,6rem)] text-white mb-8 uppercase leading-[0.85]">
                Sua ilha de <br/> pós-produção <br/>
                <span className="text-sealab-accent">estratégica.</span>
             </h2>
